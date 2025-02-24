@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/aboutme.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/50b979a1db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible collapsible--expanded container">
+        <a class="nav__brand" href="#"
+          ><img src="./images/header-logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="./images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#section1">Home</a></li>
+          <li class="nav__item"><a href="#section2">About</a></li>
+          <li class="nav__item"><a href="#section3">Service</a></li>
+          <li class="nav__item"><a href="#section4">Portfolio</a></li>
+          <li class="nav__item"><a href="#section5">Resume</a></li>
+          <li class="nav__item"><a href="#section6">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      id="section1"
+      class="hero hero--primary grid grid--1x2 container hero-first"
+    >
+      <div data-aos="fade-right">
+        <span class="hero__tagline"> Hello, Welcome</span>
+        <h1 class="hero__heading">I'm Eden Abwe</h1>
+        <p class="hero__text">
+          An IT Field Technician and Tech Enthusiast, passionate of technology.
+          I have couple of years of Experience in Networking, Computer Desk
+          Support and Customer services and curently learning Software
+          Engineering. Certified and validated by big Companies like Google and
+          Cisco (Google IT Support Specialist & CCNA)
+        </p>
+        <a href="#section6" class="btn btn--primary">Contact Us</a>
+      </div>
+      <div data-aos="fade-left">
+        <img
+          src="./images/ben.jpg"
+          alt=""
+          class="hero__image hero-image__rigth"
+        />
+      </div>
+    </section>
+    <div id="section2" class="hero hero--secondary">
+      <section class="grid grid--1x2 container">
+        <div data-aos="fade-right">
+          <img
+            src="./images/ben.jpg"
+            alt="My profile"
+            class="hero__image hero-image__left"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <h2>About <span class="hero-secondary__heading">Me</span></h2>
+          <p class="hero-secondary__text">
+            I'm a 24 years old Boy tech enthusiast, who love to code and create
+            things for the benefit others. learning new things about technology
+            is my hobby.
+          </p>
+          <p class="hero-secondary__text">
+            My love and enthusiasm about tech started when i was just 10 years
+            while living a Refugee camp in Tanzania, when my Dad bought a
+            computer for me and my brothers. I couldn't stop playing around it
+            and amazed with how the computer perform calcluation and process
+            data using hardware and software, by then my goals was to don't just
+            be a user of Technology but also a maker of technology(Building
+            software so people in my poor community would benefit).
+          </p>
+          <a href="#section6" class="btn btn--primary">Contact Us</a>
+        </div>
+      </section>
+    </div>
+    <section id="section3" class="hero hero__container container">
+      <section>
+        <h2>My <span class="hero-secondary__heading">Service</span></h2>
+        <p class="hero-service__text">
+          I build Websites , apps and installing and configuring network devices
+          (switches, routers,...)
+        </p>
+      </section>
+      <div class="grid grid--1x3" data-aos="flip-left">
+        <article class="hero__box">
+          <i
+            class="fa-solid hero-icons fa-mobile-screen-button"
+            style="color: rgb(234, 179, 8)"
+          ></i>
+          <h3>Python Programming</h3>
+          <p>
+            Using Python programming language and libraries to build games and
+            Automate Tasks.
+          </p>
+          <h4>Projects</h4>
+          <ul>
+            <li>Built a local password manager</li>
+            <li>Built Bible games</li>
+            <li>
+              Using the SMTP module to generate invites and send it to different
+              people
+            </li>
+            <li>Using APIs I designed weather alert, workout tracker,...</li>
+          </ul>
+        </article>
+        <article class="hero__box">
+          <i
+            class="fa-solid hero-icons fa-briefcase"
+            style="color: rgb(234, 179, 8)"
+          ></i>
+          <h3>IT Field Technician</h3>
+          <p>
+            Installing and configuring Networking devices(switches and Routers)
+            , VOIP and Analog Cameras, Low voltage and standard cable run.
+          </p>
+          <p>
+            Troubleshooting computer and Network Issues, operating
+            system(windows, linux and Mac) deployment, cable management and
+            termination.
+          </p>
+        </article>
+        <article class="hero__box">
+          <i
+            class="fa-solid hero-icons fa-code"
+            style="color: rgb(234, 179, 8)"
+          ></i>
+          <h3>Web Developement</h3>
+          <p>
+            I build website using HTML, CSS and JavaScript. My design include
+            making websites responsive to all type of devices, from mobile
+            devices to desktop computers.
+          </p>
+          <p>
+            I use different techniques to make sure the website is quicly and
+            easily accesible to everyone from different corner of the world ,
+            even areas when network connections are poor.
+          </p>
+        </article>
+      </div>
+    </section>
+    <div id="section4" class="hero hero--secondary">
+      <section class="block__header container">
+        <h2 class="block__heading">
+          My <span class="hero-secondary__heading">Portfolio</span>
+        </h2>
+        <p>
+          The images below are examples of what I do , giving an idea about the
+          level of professionalism to expect when working with me. It also shows
+          the different project that i was able to do for different companies.
+        </p>
+      </section>
+      <section class="grid grid--2x4 container">
+        <img
+          src="./images2/resized/pc3@2x.jpg"
+          alt="a computer"
+          class="block__image1"
+        />
+        <img
+          src="./images2/resized/pc4@2x.jpg"
+          alt="a computer"
+          class="block__image2"
+        />
+        <img
+          src="./images2/resized/pc5@2x.jpg"
+          alt="a computer"
+          class="block__image3"
+        />
+        <img
+          src="./images2/resized/pc6@2x.jpg"
+          alt="a computer"
+          class="block__image4"
+        />
+        <img
+          src="./images2/resized/pc8@2x.jpg"
+          alt="a computer"
+          class="block__image5"
+        />
+      </section>
+    </div>
+    <section id="section5" class="hero hero__container container">
+      <section>
+        <h2>My <span class="hero-secondary__heading">Experiences</span></h2>
+        <p class="hero-service__text">
+          A tech enthusiast with decades of experience in IT and Software
+          Engineering. Passionate of Learning new stuffs about technology.
+        </p>
+      </section>
+      <div class="grid grid--1x3" data-aos="flip-right">
+        <article class="hero__experience">
+          <h5>June-2020-2022</h5>
+          <h4 class="hero-secondary__heading">Python Programming</h4>
+          <span>Python</span>
+          <p>
+            Using Python in my daily life to Automate repetitive tasks, Build
+            games for fun and help out my friends and family with any tasks that
+            can be automated.
+          </p>
+        </article>
+        <article class="hero__experience">
+          <h5>April-2022-2024</h5>
+          <h4 class="hero-secondary__heading">IT Field Technician</h4>
+          <span>CCNA Certified</span>
+          <p>
+            Skilled in installing and configuring network equipments (switches,
+            routers,...), Voip and analog Cameras, low voltage cable
+            installation and management.
+          </p>
+        </article>
+        <article class="hero__experience">
+          <h5>January-2023-2024</h5>
+          <h4 class="hero-secondary__heading">Web Developement</h4>
+          <span>HTML, CSS, JavaScript</span>
+          <p>
+            Skilled in building and creating robust website using HTML, CSS and
+            Javascript.
+          </p>
+        </article>
+      </div>
+    </section>
+    <article id="section6" class="hero hero--secondary">
+      <section class="block__header container">
+        <h2 class="block__heading">
+          Contact <span class="hero-secondary__heading">Me</span>
+        </h2>
+        <p>
+          The joy and Happiness of my customer is my priority , Your happiness
+          from my services that make my day, so i ensure that the service i give
+          you will make you happy but also sustainable. So feel free to contact
+          me whenever you need my services.
+        </p>
+      </section>
+      <section class="grid grid--1x2 container">
+        <div>
+          <div class="footer-contact-info">
+            <h5>
+              <span class="footer-contact-info__name">Address: </span>
+            </h5>
+            <p>4020 W Mill Rd Milwaukee, WI 53209 United States</p>
+          </div>
+          <div class="footer-contact-info">
+            <h5>
+              <span class="footer-contact-info__name">Phone: </span>
+            </h5>
+            <p>+1 414-888-2898</p>
+          </div>
+          <div class="footer-contact-info">
+            <h5>
+              <span class="footer-contact-info__name">E-mail: </span>
+            </h5>
+            <p>edenjardin089@gmail.com</p>
+          </div>
+          <div class="footer-contact-info">
+            <h5>
+              <span class="footer-contact-info__name">Website: </span>
+            </h5>
+            <p>www.example.com</p>
+          </div>
+        </div>
+        <div class="input-group">
+          <form
+            action="https://formspree.io/f/mqazavrn"
+            method="POST"
+            class="input-control"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Name"
+                name="Name"
+                maxlength="255"
+                required
+                class="input-text"
+              />
+            </div>
+            <textarea
+              placeholder="Message"
+              name="Comment"
+              cols="60"
+              rows="6"
+              maxlength="255"
+              required
+              class="input-text"
+            ></textarea>
+            <button class="btn btn--primary" type="submit">Send Request</button>
+          </form>
+        </div>
+      </section>
+    </article>
+    <footer class="hero--secondary footer-hero">
+      <section class="block__header footer-container">
+        <img src="./images/footer-logo.svg" alt="a logo image" />
+        <p class="footer-text">
+          My name is Eden Abwe, a tech enthusiast with decades of experience in
+          IT and Software Engineering. My passion and enthusiasm is to don't
+          just be a user of technology but also a maker and builder of
+          technology. I love to code and build Apps and website.
+        </p>
+        <p>
+          <strong
+            >" The joy and Happiness of my customers are my priorities.
+            "</strong
+          >
+        </p>
+        <span class="footer--icons">
+          <a href="#">
+            <i
+              class="fa-brands footer-icon fa-linkedin"
+              style="color: rgb(234, 179, 8)"
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands footer-icon fa-twitter"
+              style="color: rgb(234, 179, 8)"
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands footer-icon fa-instagram"
+              style="color: rgb(234, 179, 8)"
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands footer-icon fa-youtube"
+              style="color: rgb(234, 179, 8)"
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands footer-icon fa-facebook"
+              style="color: rgb(234, 179, 8)"
+            ></i>
+          </a>
+        </span>
+      </section>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
